@@ -5,13 +5,12 @@ body{
     color: whitesmoke;
 }
 .player{
-    height: 75vh;
+    height: 95vh;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
-
 .wrapper{
     border: 1px solid transparent;
     padding: 30px;
@@ -24,7 +23,6 @@ body{
     flex-direction: column;
     justify-content: center;
 }
-
 .track-art{
     margin: 25px;
     height: 250px;
@@ -56,7 +54,6 @@ body{
     align-items: center;
     margin-bottom: 30px;
 }
-
 .active{
     color: black;
 }
@@ -81,7 +78,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 .seek_slider,
 .volume_slider{
     -webkit-appearance: none;
@@ -111,7 +107,6 @@ body{
 .seek_slider{
     width: 60%;
 }
-
 .volume_slider{
     width: 30%;
 }
@@ -130,11 +125,9 @@ i.fa-step-forward,
 i.fa-step-backward{
     cursor: pointer;
 }
-
 .randomActive{
     color: black;
 }
-
 .rotate{
     animation: rotation 8s infinite linear;
 }
@@ -146,15 +139,13 @@ i.fa-step-backward{
         transform: rotate(359deg);
     }
 }
-
 .loader{
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.loader .stroke {
+.loader .stroke{
     background: #f1f1f1;
     height: 150%;
     width: 10px;
@@ -162,39 +153,36 @@ i.fa-step-backward{
     margin: 0px 5px;
     animation: animate 1.4s linear infinite;
 }
-
-@keyframes animate {
-    50% {
+@keyframes animate{
+    50%{
         height: 20%;
         background: #4286f4;
     }
-    100% {
+    100%{
         height: 100%;
     }
 }
-
-.stroke:nth-child(1) {
+.stroke:nth-child(1){
     animation-delay: 0s;
 }
-.stroke:nth-child(2) {
-    animation-delay: 3s;
+.stroke:nth-child(2){
+    animation-delay: 0.3s;
 }
-.stroke:nth-child(3) {
-    animation-delay: 6s;
+.stroke:nth-child(3){
+    animation-delay: 0.6s;
 }
-.stroke:nth-child(4) {
-    animation-delay: 9s;
+.stroke:nth-child(4){
+    animation-delay: 0.9s;
 }
-.stroke:nth-child(5) {
-    animation-delay: 6s;
+.stroke:nth-child(5){
+    animation-delay: 0.6s;
 }
-.stroke:nth-child(6) {
-    animation-delay: 3s;
+.stroke:nth-child(6){
+    animation-delay: 0.3s;
 }
-.stroke:nth-child(7) {
+.stroke:nth-child(7){
     animation-delay: 0s;
 }
-
 /*
 .stroke:nth-child(8) {
     animation-delay: 3s;
@@ -202,8 +190,5 @@ i.fa-step-backward{
 .stroke:nth-child(9) {
     animation-delay: 6s;
 }
+
 */
-
-
-
-
