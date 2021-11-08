@@ -58,6 +58,12 @@ const music_list = [
         name : 'Sweet Dreams',
         artist : 'Eurythmics',
         music : 'music/Eurythmics.mp3'
+    },
+    {
+        img : 'images/maroon.jpg',
+        name : 'memories',
+        artist : 'Maroon',
+        music : 'music/memories.mp3'
     }
 ];
 
