@@ -5,7 +5,7 @@ body{
     color: whitesmoke;
 }
 .player{
-    height: 85vh;
+    height: 75vh;
     display: flex;
     align-items: center;
     flex-direction: column;
